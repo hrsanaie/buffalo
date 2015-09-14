@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<head> <!-- Start of head  -->
+	<meta charset="utf-8">
+    
+      
+     
+   			 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+      
+   	<title></title>
+	
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    
+        
+          <link rel="shortcut icon" href="your upload path" />
+      	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds.feedburner.com/securityweekly/Lviv" /><!-- RSS Feed  -->
+	<link rel="alternate" type="application/rss+xml" title="Atom Feed" href="http://feeds.feedburner.com/securityweekly/Lviv" /><!-- Atom Feed  -->
+    <link rel="pingback" href="http://securityweekly.com/xmlrpc.php" />
+   
+	    
+    <!--[if (gte IE 6)&(lte IE 8)]>
+      <script type="text/javascript" src="http://securityweekly.com/wp-content/themes/global/sprites/js/selectivizr-min.js"></script>
+      <noscript><link rel="stylesheet" href="[fallback css]" /></noscript>
+    <![endif]-->
+
+    
+    <!--[if IE 9]>
+            <link rel="stylesheet" type="text/css" href="http://securityweekly.com/wp-content/themes/global/sprites/stylesheets/ie9.css" />
+    <![endif]-->  
+    <!--[if IE 8]>
+            <link rel="stylesheet" type="text/css" href="http://securityweekly.com/wp-content/themes/global/sprites/stylesheets/ie8.css" />
+        <![endif]-->  
+     <!--[if IE 7]>
+            <link rel="stylesheet" type="text/css" href="http://securityweekly.com/wp-content/themes/global/sprites/stylesheets/ie7.css" />
+     <![endif]-->  
+     
+     <script type="text/javascript">
+	  	  </script>
+        <link rel="alternate" type="application/rss+xml" title="Security Weekly &raquo; Feed" href="http://feeds.feedburner.com/securityweekly/Lviv" />
+<link rel="alternate" type="application/rss+xml" title="Security Weekly &raquo; Comments Feed" href="http://securityweekly.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/securityweekly.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='titanshortcodesfront-css'  href='http://securityweekly.com/wp-content/plugins/titan_shortcodes/css/titanshortcodes_front.css?ver=4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='titantablesfront-css'  href='http://securityweekly.com/wp-content/plugins/titan_tables/css/titantable_front.css?ver=4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='mb.miniAudioPlayer.css-css'  href='http://securityweekly.com/wp-content/plugins/wp-miniaudioplayer/css/miniplayer.css?ver=1.7.3' type='text/css' media='screen' />
+<link rel='stylesheet' id='base-css'  href='http://securityweekly.com/wp-content/themes/global/sprites/base.css?ver=4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='layout-css'  href='http://securityweekly.com/wp-content/themes/global/sprites/layout.css?ver=4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='widgets-css'  href='http://securityweekly.com/wp-content/themes/global/sprites/widgets.css?ver=4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-css-css'  href='http://securityweekly.com/wp-content/themes/global/style.css?ver=4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='http://securityweekly.com/wp-content/themes/global/sprites/responsive.css?ver=4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='body-font-css'  href='http://fonts.googleapis.com/css?family=Helvetica+Neue%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900&#038;ver=4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-font-css'  href='http://fonts.googleapis.com/css?family=Helvetica+Neue%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900&#038;ver=4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='intro-font-css'  href='http://fonts.googleapis.com/css?family=Marck+Script&#038;ver=4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='adsns-css'  href='http://securityweekly.com/wp-content/plugins/adsense-plugin/css/adsns.css?v=1.36&#038;ver=4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='mailchimp-for-wp-checkbox-css'  href='http://securityweekly.com/wp-content/plugins/mailchimp-for-wp/assets/css/checkbox.min.css?ver=2.3.8' type='text/css' media='all' />
+<link rel='stylesheet' id='cwdCustomStyle-css'  href='http://securityweekly.com/wp-content/themes/global/custom.css?ver=4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='mailchimp-for-wp-form-css'  href='http://securityweekly.com/wp-content/plugins/mailchimp-for-wp/assets/css/form.min.css?ver=2.3.8' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='http://securityweekly.com/wp-content/plugins/jetpack/css/jetpack.css?ver=3.6.1' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by Yoast plugin v5.4.6 - Universal disabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-55741712-1']);
+	_gaq.push(['_setDomainName', 'www.securityweekly.com']);
+	_gaq.push(['_gat._forceSSL']);
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+<!-- / Google Analytics by Yoast -->
+<script type='text/javascript' src='http://securityweekly.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://securityweekly.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://securityweekly.com/wp-content/plugins/titan_shortcodes/js/titanshortcodes_front.js?ver=4.3'></script>
+<script type='text/javascript' src='http://securityweekly.com/wp-content/plugins/wp-miniaudioplayer/js/jQuery.mb.miniAudioPlayer.min.js?ver=1.7.3'></script>
+<script type='text/javascript' src='http://securityweekly.com/wp-content/plugins/wp-miniaudioplayer/js/map_overwrite_default_me.js?ver=1.7.3'></script>
+<script type='text/javascript' src='http://securityweekly.com/wp-content/plugins/mailchimp-widget/js/mailchimp-widget-min.js?ver=4.3'></script>
+<script type='text/javascript' src='http://securityweekly.com/wp-content/themes/global/js/cwd_custom.js?ver=4.3'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://securityweekly.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://securityweekly.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3" />
+<link rel='shortlink' href='http://wp.me/6EcIr' />
+<link rel='stylesheet' id='wop-css'  href='http://securityweekly.com/wp-content/plugins/widgets-on-pages/wop.css' type='text/css' media='all' />
+<!-- start miniAudioPlayer custom CSS -->
+
+<style id="map_custom_css">
+       
+
+/* DO NOT REMOVE OR MODIFY */
+/*{'skinName': 'mySkin', 'borderRadius': 5, 'main': 'rgb(255, 217, 102)', 'secondary': 'rgb(68, 68, 68)', 'playerPadding': 0}*/
+/* END - DO NOT REMOVE OR MODIFY */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++
+Copyright (c) 2001-2014. Matteo Bicocchi (Pupunzi);
+http://pupunzi.com/mb.components/mb.miniAudioPlayer/demo/skinMaker.html
+
+Skin name: mySkin
+borderRadius: 5
+background: rgb(255, 217, 102)
+icons: rgb(68, 68, 68)
+border: rgb(55, 55, 55)
+borderLeft: rgb(255, 230, 153)
+borderRight: rgb(255, 204, 51)
+mute: rgba(68, 68, 68, 0.4)
+download: rgba(255, 217, 102, 0.4)
+downloadHover: rgb(255, 217, 102)
+++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/* Older browser (IE8) - not supporting rgba() */
+.mbMiniPlayer.mySkin .playerTable span{background-color:#ffd966}
+.mbMiniPlayer.mySkin .playerTable span.map_play{border-left:1px solid #ffd966;}
+.mbMiniPlayer.mySkin .playerTable span.map_volume{border-right:1px solid #ffd966;}
+.mbMiniPlayer.mySkin .playerTable span.map_volume.mute{color: #444444;}
+.mbMiniPlayer.mySkin .map_download{color: #444444;}
+.mbMiniPlayer.mySkin .map_download:hover{color: #444444;}
+.mbMiniPlayer.mySkin .playerTable span{color: #444444;}
+.mbMiniPlayer.mySkin .playerTable {border: 1px solid #444444 !important;}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.mbMiniPlayer.mySkin .playerTable{background-color:transparent; border-radius:5px !important;}
+.mbMiniPlayer.mySkin .playerTable span{background-color:rgb(255, 217, 102); padding:3px !important; font-size: 20px;}
+.mbMiniPlayer.mySkin .playerTable span.map_time{ font-size: 12px !important; width: 50px !important}
+.mbMiniPlayer.mySkin .playerTable span.map_title{ padding:4px !important}
+.mbMiniPlayer.mySkin .playerTable span.map_play{border-left:1px solid rgb(255, 204, 51); border-radius:0 4px 4px 0 !important;}
+.mbMiniPlayer.mySkin .playerTable span.map_volume{padding-left:6px !important}
+.mbMiniPlayer.mySkin .playerTable span.map_volume{border-right:1px solid rgb(255, 230, 153); border-radius:4px 0 0 4px !important;}
+.mbMiniPlayer.mySkin .playerTable span.map_volume.mute{color: rgba(68, 68, 68, 0.4);}
+.mbMiniPlayer.mySkin .map_download{color: rgba(255, 217, 102, 0.4);}
+.mbMiniPlayer.mySkin .map_download:hover{color: rgb(255, 217, 102);}
+.mbMiniPlayer.mySkin .playerTable span{color: rgb(68, 68, 68);text-shadow: none!important;}
+.mbMiniPlayer.mySkin .playerTable span{color: rgb(68, 68, 68);}
+.mbMiniPlayer.mySkin .playerTable {border: 1px solid rgb(55, 55, 55) !important;}
+.mbMiniPlayer.mySkin .playerTable span.map_title{color: #000; text-shadow:none!important}
+.mbMiniPlayer.mySkin .playerTable .jp-load-bar{background-color:rgba(255, 217, 102, 0.3);}
+.mbMiniPlayer.mySkin .playerTable .jp-play-bar{background-color:#ffd966;}
+.mbMiniPlayer.mySkin .playerTable span.map_volumeLevel a{background-color:rgb(94, 94, 94); height:80%!important }
+.mbMiniPlayer.mySkin .playerTable span.map_volumeLevel a.sel{background-color:#444444;}
+.mbMiniPlayer.mySkin  span.map_download{font-size:50px !important;}
+/* Wordpress playlist select */
+.map_pl_container .pl_item.sel{background-color:#ffd966 !important; color: #444444}
+/*++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+</style>
+	
+<!-- end miniAudioPlayer custom CSS -->
+	
+<style type='text/css'>img#wpstats{display:none}</style>
+		  <style type="text/css">
+		   #top-bar {   border-bottom : 1px  solid #232424 ;   background-color : #090909;   background-image :url( );  background-repeat : repeat;   background-position : top left;  }   #top-bar p {   color : #f0f0f0  ; font-size: 14px; font-weight:  300; font-style: normal ;  }   #top-bar ul.menu li a {   color : #41A0D6  ; font-size: 14px; font-weight:  300; font-style: normal ;  }   #top-bar ul.menu li:hover a {   color : #ffffff  ; font-size: 12px; font-weight:  300; font-style: normal ;  }   #top-bar .menu > li.current_page_item > a, #top-bar .menu > li.current-menu-ancestor > a {   color : #41A0D6  ; font-size: 12px; font-weight:  300; font-style: normal ;  }   #menu-bar .menu > li > a {   background-image :url( );  background-repeat : repeat;   background-position : top left;  }   div.top-area {   background-color : #1e1e1e;   background-image :url( );  background-repeat : repeat;   background-position : top left;  }   #menu-bar .menu>li a {   color : #ffffff  ; font-size: 14px; font-weight:  500; font-style: normal ;  }   #menu > li:hover > a, #menu > li.current_page_item > a, #menu > li.current-menu-ancestor > a, #menu > li.menu-active > a, #menu-bar .menu>li>a:hover {   color : #41A0D6  ; font-size: 14px; font-weight:  500; font-style: normal ;  }   #menu-bar .menu > li span {   color : #777777  ; font-size: 10px; font-weight:  300; font-style: normal ;  }   #menu > li:hover > a span, #menu > li.current_page_item > a span, #menu > li.current-menu-ancestor > a span, #menu > li.menu-active > a span {   color : #ffffff  ; font-size: 10px; font-weight:  300; font-style: normal ;  }   #menu > li > ul.sub-menu, #menu > li > ul.sub-menu ul.sub-menu {   background-color : #1E1E1E;   background-image :url( );  background-repeat : repeat;   background-position : top left;  }   #menu ul.sub-menu li a {   color : #ffffff  ; font-size: 12px; font-weight:  300; font-style: normal ;  }   #menu ul.sub-menu li a:hover {   color : #ffffff  ; font-size: 12px; font-weight:  300; font-style: normal ;   background-color : #41A0D6;   background-image :url( );  background-repeat : repeat;   background-position : top left;  }   div.bg-cover {   background-color : #282828;   background-image :url( );  background-repeat : repeat;   background-position : top left;  }   div.right_stage_caption h2,div.left_stage_caption h2 {   color : #ffffff  ; font-size: 36px; font-weight:  700; font-style: normal ;  }   div.left_stage_caption p,div.right_stage_caption p {   color : #777777  ; font-size: 13px; font-weight:  300; font-style: normal ;  }   div.left_stage_caption a.read-more,div.right_stage_caption a.read-more {   background-color : #41A0D6;   background-image :url( );  background-repeat : repeat;   background-position : top left;   color : #ffffff  ; font-size: 13px; font-weight:  600; font-style: normal ;  }   div.left_stage_caption a.read-more :hover,div.right_stage_caption a.read-more:hover {   background-color : #333;   background-image :url( );  background-repeat : repeat;   background-position : top left;   color : #ffffff  ; font-size: 13px; font-weight:  600; font-style: normal ;  }   div.full_stage div.caption-style {   background-color : #000000;   background-image :url( );  background-repeat : repeat;   background-position : top left;   opacity : 0.8  ;  }   div.full_stage div.caption-style h2 {   color : #ffffff  ; font-size: 20px; font-weight:  500; font-style: normal ;  }   div.full_stage div.caption-style p {   color : #777777  ; font-size: 12px; font-weight:  300; font-style: normal ;  }   div.full_stage a.read-more {   color : #41A0D6  ; font-size: 12px; font-weight:  600; font-style: normal ;  }   div.full_stage a.read-more:hover {   color : #ffffff  ; font-size: 12px; font-weight:  600; font-style: normal ;  }   div.title-wrap h1.custom-title {   color : #ffffff  ; font-size: 36px; font-weight:  500; font-style: normal ;  }   div.title-wrap h3.page-subtitle {   color : #ffffff  ; font-size: 15px; font-weight:  300; font-style: normal ;  }   div.title-wrap h3.page-subtitle a {   color : #41A0D6  ; font-size: 15px; font-weight:  300; font-style: normal ;  }   div.title-wrap h3.page-subtitle a:hover {   color : #ffffff  ; font-size: 15px; font-weight:  300; font-style: normal ;  }   body,div.super-wrapper {   background-color : #ffffff;   background-image :url( );  background-repeat : repeat;   background-position : top left;  }   .content h1, .content h2, .content h3, .content h4, .content h5, .content h6,div.single-portfolio h1,div.portfolio-metadata h3.custom-title {   color : #333333  ;  }   .blurb-parent-wrap,div.testimonials,div.group-wrap,.twitter-wrapper {   background-color : #f4f4f4;   background-image :url( );  background-repeat : repeat;   background-position : top left;  }   .portfolio-taxonomy ul li:hover a, .portfolio-taxonomy ul li.active a,div.blog-template ul.posts li a.read-more,.sidebar .sidebar-wrap .thunder_button, .sidebar .sidebar-wrap .d_submit, .sidebar .sidebar-wrap #searchsubmit,#comments_template form input[type='submit'], a.comment-reply-link,div.news-letter form input[type='submit'],.wpcf7-submit,.project-nav a,.pagination .active a {   background-color : #41A0D6;   background-image :url( );  background-repeat : repeat;   background-position : top left;   color : #ffffff  ; font-size: 11px; font-weight:  400; font-style: normal ;  }   .portfolio-taxonomy ul li:hover a:hover, .portfolio-taxonomy ul li.active a:hover,div.blog-template ul.posts li a.read-more:hover,.sidebar .sidebar-wrap .thunder_button:hover, .sidebar .sidebar-wrap .d_submit:hover, .sidebar .sidebar-wrap #searchsubmit:hover,#comments_template form input[type='submit']:hover, a.comment-reply-link:hover,div.news-letter form input[type='submit']:hover,.wpcf7-submit:hover,.project-nav a:hover,.pagination a:hover {   background-color : #333333;   background-image :url( );  background-repeat : repeat;   background-position : top left;   color : #ffffff  ; font-size: 11px; font-weight:  400; font-style: normal ;  }   .portfolio-taxonomy ul li a {   background-color : #f4f4f4;   background-image :url( );  background-repeat : repeat;   background-position : top left;   color : #333333  ; font-size: 11px; font-weight:  400; font-style: normal ;  }   ::selection  {   color : #ffffff  ;   background-color : #41A0D6;   background-image :url( );  background-repeat : repeat;   background-position : top left;  }   div.separator, div.super-wrapper div.titanseparator {   border-bottom : 1px  solid #e0e0e0 ;  }   div.pagination {   border-top : 1px  solid #e0e0e0 ;  }   #breadcrumbs {   background-color : #fafafa;   background-image :url( );  background-repeat : repeat;   background-position : top left;   color : #333333  ; font-size: 11px; font-weight:  300; font-style: italic ;   border-bottom : 1px  solid #e0e0e0 ;  }   #breadcrumbs a {   color : #41A0D6  ; font-size: 11px; font-weight:  300; font-style: italic ;  }   div.news-letter form input[type='text'],#searchform input[type='text'],.sidebar .sidebar-wrap input[type='text'],.sidebar .sidebar-wrap textarea,#comments_template input[type='text'],#comments_template textarea,div.wpcf7 span input[type=text], div.wpcf7 span input[type=email],div.wpcf7 span textarea.wpcf7-textarea {   background-color : #ffffff;   background-image :url( );  background-repeat : repeat;   background-position : top left;   color : #333333  ;   border : 1px  solid #ddd ;  }   .blurb-parent-wrap {   background-color : #fafafa;   background-image :url( );  background-repeat : repeat;   background-position : top left;  }   .blurb-wrapper h3.blurb-text {   color : #333333  ; font-size: 48px; font-weight:  400; font-style: normal ;  }   .blurb-secondary-text {   color : #333333  ; font-size: 16px; font-weight:  300; font-style: normal ;  }   .blurb-wrapper .blurb-button a {   background-color : #41A0D6;   background-image :url( );  background-repeat : repeat;   background-position : top left;   color : #ffffff  ; font-size: 13px; font-weight:  300; font-style: normal ;  }   .blurb-wrapper .blurb-button a:hover {   background-color : #333333;   background-image :url( );  background-repeat : repeat;   background-position : top left;   color : #ffffff  ; font-size: 13px; font-weight:  300; font-style: normal ;  }   .column-content p, .column-content, .page p, .content p,div.single_portfolio_content p {   color : #333333  ;  }   div.latest-info-posts h2,div.intro-fancy-title h2,div.layout_element div.section-title h2.custom-font {   color : #333333  ; font-size: 18px; font-weight:  600; font-style: normal ;  }   div.intro-fancy-title h6.custom-font {   color : #777777  ; font-size: 9px; font-weight:  400; font-style: normal ;   border-bottom : 1px  solid #e0e0e0 ;  }   div.latest-info-posts div.description, .column-content p, .column-content, .items div.desc {   color : #333333  ; font-size: 13px; font-weight:  300; font-style: normal ;  }   div.latest-info-posts a.main-button {   color : #41A0D6  ; font-size: 11px; font-weight:  400; font-style: normal ;  }   div.latest-info-posts a.main-button:hover {   color : #333333  ; font-size: 11px; font-weight:  400; font-style: normal ;  }   div.latest-home-posts div.posts-wrapper ul li h3.custom-font a {   color : #333333  ; font-size: 13px; font-weight:  600; font-style: normal ;  }   div.latest-home-posts div.posts-wrapper ul li h3.custom-font a:hover {   color : #41A0D6  ; font-size: 13px; font-weight:  600; font-style: normal ;  }   div.info-post-items div.desc,.portfolio-template div.description {   background-color : #000000;   background-image :url( );  background-repeat : repeat;   background-position : top left;   opacity : 0.8  ;  }   div.info-post-items h3 a,.portfolio-template .portfolio-four-column ul.posts li h2 a, .portfolio-template .portfolio-three-column ul.posts li h2 a, .portfolio-template .portfolio-two-column ul.posts li h2 a, .portfolio-template .portfolio-one-column ul.posts li h2 a, div.latest-home-posts div.posts-wrapper ul.post-nonproduct > li h3 a,div.hover h3 {   color : #ffffff  ;  }   div.info-post-items h3 a:hover,.portfolio-template .portfolio-four-column ul.posts li h2 a:hover, .portfolio-template .portfolio-three-column ul.posts li h2 a:hover, .portfolio-template .portfolio-two-column ul.posts li h2 a:hover, .portfolio-template .portfolio-one-column ul.posts li h2 a:hover, div.latest-home-posts div.posts-wrapper ul.post-nonproduct > li h3 a:hover,div.hover h3:hover {   color : #41A0D6  ;  }   .full-width .portfolio-four-column ul.posts > li p,.full-width .portfolio-three-column ul.posts>li p,.full-width .portfolio-two-column ul.posts>li p,div.info-post-items div.desc p,div.hover p  {   color : #777777  ; font-size: 13px; font-weight:  300; font-style: normal ;  }   div.info-post-items a.more-link {   background-color : #41A0D6;   background-image :url( );  background-repeat : repeat;   background-position : top left;   color : #ffffff  ; font-size: 13px; font-weight:  400; font-style: normal ;  }   div.info-post-items a.more-link:hover {   background-color : #333333;   background-image :url( );  background-repeat : repeat;   background-position : top left;   color : #ffffff  ; font-size: 13px; font-weight:  400; font-style: normal ;  }   div.testimonials {   background-color : #f4f4f4;   background-image :url( );  background-repeat : repeat;   background-position : top left;  }   div.testimonial-slider div.content {   color : #525252  ; font-size: 16px; font-weight:  400; font-style: italic ;  }   div.testimonial-slider div.meta-data {   color : #333333  ; font-size: 13px; font-weight:  600; font-style: normal ;  }   .twitter-wrapper {   background-color : #f4f4f4;   background-image :url( );  background-repeat : repeat;   background-position : top left;  }   .twitter-wrapper .twitter ul li a {   color : #41A0D6  ; font-size: 15px; font-weight:  300; font-style: normal ;  }   .twitter-wrapper .twitter ul li a:hover {   color : #333333  ; font-size: 15px; font-weight:  300; font-style: normal ;  }   #footer {   background-color : #212222;   background-image :url( );  background-repeat : repeat;   background-position : top left;  }   #footer-menu {   background-color : #282828;   background-image :url( );  background-repeat : repeat;   background-position : top left;   border-top : 1px  solid #303030 ;  }   #footer .footer-wrap h3.custom-box-title, #footer .footer-wrap h3.footer-heading,div.footer-wrap h3.s-title {   color : #777777  ; font-size: 20px; font-weight:  500; font-style: normal ;  }   div.footer-wrap h5.s-sub-title,#footer .footer-wrap .latest-tweets li,.footer-wrap .custom-box-content p,#footer .footer-wrap p,p.footer-text,#footer .footer-wrap ul.latest-tweets li {   color : #777777  ; font-size: 13px; font-weight:  300; font-style: normal ;  }   #footer .footer-wrap ul.latest-tweets li a,#footer .footer-wrap ul li a {   color : #ffffff  ; font-size: 13px; font-weight:  300; font-style: normal ;  }   #footer .footer-wrap ul.latest-tweets li a:hover,#footer .footer-wrap ul li a:hover {   color : #41A0D6  ; font-size: 13px; font-weight:  300; font-style: normal ;  }   #footer-menu .menu li a {   color : #ffffff  ; font-size: 11px; font-weight:  400; font-style: normal ;  }   #footer-menu .menu li a:hover {   color : #41A0D6  ; font-size: 11px; font-weight:  400; font-style: normal ;  }   #footer-menu .menu li {   border-left : 1px  solid #ffffff ;  }   #footer .footer-wrap li {   border-bottom : 1px  solid #383838 ;  }   #footer .footer-wrap textarea,#footer .footer-wrap input[type='text'] {   color : #777777  ;   background-color : #000000;   background-image :url( );  background-repeat : repeat;   background-position : top left;   opacity : 0.3  ;  }   #footer .footer-wrap .thunder_button, #footer .footer-wrap input[type='submit'] {   color : #ffffff  ;   background-color : #41A0D6;   background-image :url( );  background-repeat : repeat;   background-position : top left;  }   #footer .footer-wrap .thunder_button:hover, #footer .footer-wrap input[type='submit']:hover {   color : #41A0D6  ;   background-color : #ffffff;   background-image :url( );  background-repeat : repeat;   background-position : top left;  }   .sidebar-wrap {   border-bottom : 1px  solid #dddddd ;  }   .sidebar .sidebar-wrap h3.heading, .sidebar .sidebar-wrap h3.custom-box-title {   color : #333333  ;  }   .sidebar-wrap ul li, .sidebar-wrap .latest-tweets li {   color : #333333  ; font-size: 12px; font-weight:  300; font-style: normal ;  }   .sidebar-wrap ul li a {   color : #41A0D6  ; font-size: 12px; font-weight:  300; font-style: normal ;  }   .sidebar-wrap ul li a:hover {   color : #333333  ; font-size: 12px; font-weight:  300; font-style: normal ;  }   .sidebar-wrap ul li {   border-bottom : 1px  dotted #dddddd ;  }   div.blog-template ul.posts li h2.custom-font a {   color : #41A0D6  ; font-size: 32px; font-weight:  500; font-style: normal ;  }   div.blog-template ul.posts li h2.custom-font a:hover {   color : #333  ; font-size: 32px; font-weight:  500; font-style: normal ;  }   div.extras {   color : #333333  ; font-size: 11px; font-weight:  300; font-style: italic ;  }   div.extras a {   color : #41A0D6  ; font-size: 11px; font-weight:  300; font-style: italic ;  }   div.extras a:hover {   color : #333333  ; font-size: 11px; font-weight:  300; font-style: italic ;  }   div.blog-template ul.posts li div.description .wp-excerpt {   color : #333333  ; font-size: 13px; font-weight:  300; font-style: normal ;  }   div.blog-template ul.posts li {   border-bottom : 1px  solid #dddddd ;  }   #authorbox .authortext h3, #respond h3.custom-font, #comments h3#comments-title, #comments .image-info cite { font-size: 18px; font-weight:  500; font-style: normal ;  }   #authorbox .authortext p {   color : #333333  ; font-size: 13px; font-weight:  300; font-style: normal ;  }   #comments_template code {   color : #333333  ; font-size: 11px; font-weight:  300; font-style: normal ;   background-color : #ffffff;   background-image :url( );  background-repeat : repeat;   background-position : top left;  }   #comments .image-info a, #comments .logged-in-as a, a#cancel-comment-reply-link {   color : #41A0D6  ; font-size: 10px; font-weight:  300; font-style: normal ;  }   #comments .image-info a:hover, #comments .logged-in-as a:hover, a#cancel-comment-reply-link:hover {   color : #333333  ; font-size: 10px; font-weight:  300; font-style: normal ;  }   .shortcodetable .plans > div ul li.plan_name, .shortcodetable .plans > div ul li.currency, .shortcodetable .plans > div {   color : #ffffff  ; font-size: 13px; font-weight:  300; font-style: normal ;   background-color : #333333;   background-image :url( );  background-repeat : repeat;   background-position : top left;  }   div.shortcodetable div.plans > div ul li {   border-bottom : 1px  dotted #3a3a3a ;  }   .shortcodetable .plans > div ul li.currency {   border-top : 1px  dotted #3a3a3a ;  }   .shortcodetable .plans > div ul li.currency {   border-bottom : 1px  dotted #3a3a3a ;  }   div.shortcodetable div.plans > div ul li {   color : #777777  ; font-size: 13px; font-weight:  300; font-style: normal ;  }   .shortcodetable .plans > div ul li.currency {   color : #ffffff  ; font-size: 36px; font-weight:  500; font-style: normal ;  }   .shortcodetable .plans > div ul li.plan_name {   color : #ffffff  ; font-size: 24px; font-weight:  300; font-style: normal ;  }   .shortcodetable .plans > div ul li.sign-button a {   color : #ffffff  ; font-size: 13px; font-weight:  400; font-style: normal ;   background-color : #41A0D6;   background-image :url( );  background-repeat : repeat;   background-position : top left;  }   .shortcodetable .plans > div ul li.sign-button a:hover {   color : #41A0D6  ; font-size: 13px; font-weight:  400; font-style: normal ;   background-color : #ffffff;   background-image :url( );  background-repeat : repeat;   background-position : top left;  }   .shortcodetable .plans > div.featured, .shortcodetable .plans > div.featured ul li.currency, .shortcodetable .plans > div.featured li.plan_name {   color : #ffffff  ; font-size: 13px; font-weight:  300; font-style: normal ;   background-color : #41A0D6;   background-image :url( );  background-repeat : repeat;   background-position : top left;  }   .shortcodetable .plans > div.featured ul li {   border-bottom : 1px  dotted #6bc4f7 ;  }   .shortcodetable .plans > div.featured ul li.currency {   border-top : 1px  dotted #6bc4f7 ;  }   .shortcodetable .plans > div.featured ul li.currency {   border-bottom : 1px  dotted #6bc4f7 ;  }   .shortcodetable .plans > div.featured ul li {   color : #ffffff  ; font-size: 13px; font-weight:  300; font-style: normal ;  }   .shortcodetable .plans > div.featured ul li.currency {   color : #ffffff  ; font-size: 36px; font-weight:  500; font-style: normal ;  }   .shortcodetable .plans > div.featured li.plan_name {   color : #ffffff  ; font-size: 24px; font-weight:  300; font-style: normal ;  }   .shortcodetable .plans > div.featured ul li.sign-button a {   color : #41A0D6  ; font-size: 13px; font-weight:  400; font-style: normal ;   background-color : #ffffff;   background-image :url( );  background-repeat : repeat;   background-position : top left;  }   .shortcodetable .plans > div.featured ul li.sign-button a:hover {   color : #41A0D6  ; font-size: 13px; font-weight:  400; font-style: normal ;   background-color : #ffffff;   background-image :url( );  background-repeat : repeat;   background-position : top left;  } 
+		  
+		  </style>
+		  
+		  <style type='text/css'> 
+						body , .content {  font-family: 'Helvetica Neue', Helvetica , Arial , sans-serif; 
+						font-size:14px; 
+						
+						
+						}
+					div.bg-texture {
+						 background-image:url(http://securityweekly.com/wp-content/themes/global/sprites/textures/waves-texture.png);
+			  background-repeat:repeat;
+			  background-position: top left;
+			  background-attachment: scroll;
+			  background-color:#
+			   }		
+						
+							
+					.blurb-wrapper h3.blurb-text  { font-family: 'Marck Script', Helvetica , Arial , sans-serif;  }	
+						.custom-font , #menu-bar .menu>li>a, #footer-menu .menu>li>a {  font-family: 'Helvetica Neue', sans-serif; }
+						
+						
+						
+						/* == ~~ This is the dynamic CSS ==================== */
+						
+						/* == ~~ End of dynamic CSS ========================= */
+						
+						 .content h1 { font-size:36px;   }
+						 .content h2 { font-size:32px;  } 
+						 .content h3 { font-size:28px;  }
+						 .content h4 { font-size:24px; }
+						 .content h5 { font-size:18px;  }
+						 .content h6 { font-size:13px; } 
+						 
+						  div.blog-template ul.posts li h2.custom-font  a { font-size:18px;  }
+						 .portfolio-template .portfolio-one-column  ul.posts li h2 a { font-size: 18px;  }
+						 .portfolio-template .portfolio-two-column  ul.posts li h2 a { font-size:18px;  }
+						 .portfolio-template .portfolio-three-column  ul.posts li h2 a { font-size:18px;  }
+						 .portfolio-template .portfolio-four-column  ul.posts li h2 a { font-size:18px;  }
+						
+						
+			  	  </style><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Security Weekly" />
+<meta property="og:description" content="Hacking Naked Since 2005" />
+<meta property="og:url" content="http://securityweekly.com/" />
+<meta property="og:site_name" content="Security Weekly" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@securityweekly" />
+    
+</head> <!-- End of Head -->
+ 
+<body class="home blog"> <!-- Start of body  -->
+
+
+
+<div class="bg-texture thunder_listener" data-filter="bg bgi bgp bgr">
+<div class="super-wrapper clearfix " data-cart-link="http://securityweekly.com/wp-content/themes/global/hades_framework/helper/builder_listener.php" > <!-- Super Wrapper For ALL the Content -->
+
+
+
+<div class="bg-cover">
+
+<div id="top-bar" class="clearfix thunder_listener" data-filter="bg" data-link-filter="cr crh crma" data-list-filter="rbr" >
+
+	<div class="skeleton box_skeleton clearfix">
+
+	<div class="left-area clearfix">		   
+      <p class="top-bar-text"> <a id="top-watch-link" href="/web/20150106004733/http://securityweekly.com/watch/">Watch Now</a> <a id="top-listen-link" href="/web/20150106004733/http://securityweekly.com/listen/">Listen Now</a> </p>
+     
+	</div>
+    
+    
+        <a href="https://itunes.apple.com/podcast/pauls-security-weekly/id91472687?mt=2" class="itunes-top-button">Subscribe on iTunes</a>
+<ul class="top-social-icons clearfix"><li class="rss" ><a href="http://securityweekly.com/podcast/psw.xml"></a></li></ul>
+      <!--
+      <ul id="topmenu" class="reconize menu clearfix"><li id="menu-item-2483" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2483"><a href="https://itunes.apple.com/podcast/pauldotcom-security-weekly/id91472687?mt=2" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://itunes.apple.com/podcast/pauldotcom-security-weekly/id91472687?mt=2', 'Subcribe on iTunes']);" >Subcribe on iTunes</a></li>
+</ul>         -->
+           
+           
+     
+    </div>
+</div>
+
+
+
+
+
+
+
+ 
+<div class="top-area thunder_listener " data-filter="bg bgp bgi bgr tbr sbbr" >
+  <div class="clearfix box_skeleton skeleton">
+  <h2 id="logo" class=""><a href="http://securityweekly.com"><img src="http://securityweekly.com/wp-content/uploads/2014/01/SecurityWeeklyLogo_small2.png" alt="logo" /><span>Security Weekly Hacking Naked Since 2005</span></a></h2>
+    <div id="menu-bar-wrapper" class="thunder_listener menu-algorithm"  data-link-filter="cr crh crma bbra"  data-submenu-filter="cr crh bg rbr list-bbr"  > 
+  
+   <div class="mobile-menu">
+<div class="">
+<div class="mobile-menu-wrapper ">
+ <div class="mobile-menu-bg">
+  	<select name="" id="mobile-menu" class="">   </select>
+ </div>   
+</div>
+</div>
+</div>
+
+
+     <div id="menu-bar">
+      <div class="clearfix ">
+          
+             
+             
+             <ul id="menu" class="menu"><li id="menu-item-1064" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1064   rel     "><a href="http://securityweekly.com/consulting-2/">Consulting<span class='menu-subtitle'>  </span> </a> </li>
+<li id="menu-item-2559" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2559   rel     "><a href="http://securityweekly.com/category/training/">Training<span class='menu-subtitle'>  </span> </a> </li>
+<li id="menu-item-2571" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2571   rel     "><a href="http://securityweekly.com/category/webcasts/">Webcasts<span class='menu-subtitle'>  </span> </a> </li>
+<li id="menu-item-2708" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2708   rel     "><a href="http://securityweekly.com/podcasts/">Podcasts<span class='menu-subtitle'>  </span> </a> </li>
+<li id="menu-item-2481" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2481   rel     "><a href="/blog">Blog<span class='menu-subtitle'>  </span> </a> </li>
+<li id="menu-item-2912" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2912   rel     "><a href="http://wiki.securityweekly.com/wiki/index.php/Main_Page">Wiki<span class='menu-subtitle'>  </span> </a> </li>
+<li id="menu-item-5065" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5065   rel     "><a href="http://shop.securityweekly.com">Store<span class='menu-subtitle'>  </span> </a> </li>
+</ul>      </div>
+     </div>
+  </div>
+ 
+  
+  </div>
+</div>
+
+<div id="menu-filler"></div>
+<div id="top-banner-ads" class="clearfix box_skeleton skeleton"><div><div class="dfad dfad_pos_1 dfad_first" id="_ad_4667"><div style="text-align:center;"><a href="https://www.pwnieexpress.com/" target="_blank"><img src="http://securityweekly.com/wp-content/uploads/2014/01/Pwnie-Express-Banner-200x46.png" alt="Pwnie Express Banner 200x46" width="200" height="46" class="alignnone size-full wp-image-4677" /></a>
+
+<a href="https://www.sans.org/" target="_blank"><img src="http://securityweekly.com/wp-content/uploads/2014/01/SANS_Logo_Box_4C-245x154.png" alt="SANS_Logo_Box_4C" width="75" height="46" class="alignnone size-medium wp-image-7037" /></a> 
+
+<a href="http://www.tenable.com/" target="_blank"><img src="http://securityweekly.com/wp-content/uploads/2014/01/tenablelogo-46.png" alt="tenablelogo-46" width="186" height="46" class="alignnone size-full wp-image-4674" /></a>
+
+<a href="https://www.netsparker.com/securityweekly/"><img src="http://securityweekly.com/wp-content/uploads/2014/01/184x86_Netsparker_300dpi.jpg" alt="Print" width="186" height="46" class="alignnone size-full wp-image-7877" /></a>
+
+<a href="http://www.onapsis.com" target="_blank"><img src="http://securityweekly.com/wp-content/uploads/2014/01/Onapsis-white-bkg.png" alt="onapsis" width="186" height="46" class="alignnone size-full wp-image-4674" /></a></div>
+
+</div></div></div>
+   
+
+<div id="page-starter" class="">
+
+
+
+<div id="home-slider"> <!--  Parent Slider Container -->
+  <div class="inner-slider-wrapper thunder_listener "> <!--  Inner Slider Container -->
+    <div class=" clearfix homeslidercontainer skeleton "> <!--   Slider Container -->
+    
+    <div class="homepage-slider right_stage"> <div class='rslider redilsSlider  ' data-width='640' data-height='360' data-duration='5' data-slider_type='fade' data-slider_layout='right' data-caption='true' data-autoplay='false' data-pause_on_hover='true' data-thumbnails='false' data-counter='false' data-arrow_control='false' data-bullets_control='true' data-tablet_width='' data-tablet_height='' data-tablet_potrait_width='' data-tablet_potrait_height='' data-phone_width='' data-phone_height='' data-phone_landscape_width='' data-phone_landscape_height='' data-phone_potrait_width='' data-phone_potrait_height='' data-responsive='auto' data-touch_enabled='true' data-preloading='true' data-popup_links='true' data-fade_effects='1' data-jquery_effects='1' data-three_effects='0'  data-url='http://securityweekly.com/wp-content/themes/global/hades_framework/helper/builder_listener.php' data-id='1' >
+		   <div class="redils-slide"><div class="rmain-image"> <iframe width="640" height="360" 
+src="https://www.youtube.com/embed/videoseries?list=PLlPkFwQHxYE4atQRxwAsTux2PmOuWGgAA" 
+frameborder="0" allowfullscreen></iframe>    <img alt='/watch-security-weekly' class='' src='http://securityweekly.com/wp-content/uploads/2014/01/SecurityWeekly-640x360-640x360.png'    />  </div> <div class='layers'> <div class="layer caption"   data-link="" style="z-index:1" data-x="" data-y="" data-type="text" data-behavior="layer" data-effectin="fade" data-effectout="fade" data-delayin="0" data-delayout="0"  data-easein="swing"  data-easeout="swing" data-speedin="500" data-speedout="200" data-die="stay" >
+                                  <div class="rtext stub caption-style"> <h2 class='custom-font' >Paul's Security Weekly</h2>   <p><p>Watch Paul's Security Weekly for the latest information security news, research, hacker techniques,  vulnerabilities, and technical how-tos!</p>
+<br>
+<p>Tune in live every Thursday night 6:00PM Eastern at <a href="http://securityweekly.com/live">http://securityweekly.com/live</a></p></p> <a class='read-more ' href='/watch-security-weekly'> More </a></div>
+                                </div></div></div> <div class="redils-slide"><div class="rmain-image"> <iframe src="http://blip.tv/play/iI9EjuFMqpJ%2B.html?p=1" width="640"
+height="360" frameborder="0" allowfullscreen></iframe><embed
+type="application/x-shockwave-flash"
+src="http://a.blip.tv/api.swf#iI9EjuFMqpJ+" style="display:none"></embed>    <img alt='/watch-hack-naked-tv/' class='' src='http://securityweekly.com/wp-content/uploads/2013/05/hacknaked640x360-640x360.jpg'    />  </div> <div class='layers'> <div class="layer caption"   data-link="" style="z-index:1" data-x="" data-y="" data-type="text" data-behavior="layer" data-effectin="fade" data-effectout="fade" data-delayin="0" data-delayout="0"  data-easein="swing"  data-easeout="swing" data-speedin="500" data-speedout="200" data-die="stay" >
+                                  <div class="rtext stub caption-style"> <h2 class='custom-font' >Hack Naked TV</h2>   <p>Check out the latest episode of Hack Naked TV, a weekly short video featuring John Strand discussing the security news for the week!</p> <a class='read-more ' href='/watch-hack-naked-tv/'> More </a></div>
+                                </div></div></div> <div class="redils-slide"><div class="rmain-image"> <iframe style="border: none"
+src="http://html5-player.libsyn.com/embed/destination/id/64034/height/360/width/640/theme/legacy/direction/no/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/"
+//height="360" width="640" scrolling="no"></iframe>    <img alt='http://securityweekly.com/podcasts' class='' src='http://securityweekly.com/wp-content/uploads/2014/01/SecurityWeekly-640x360-640x360.png'    />  </div> <div class='layers'> <div class="layer caption"   data-link="" style="z-index:1" data-x="" data-y="" data-type="text" data-behavior="layer" data-effectin="fade" data-effectout="fade" data-delayin="0" data-delayout="0"  data-easein="swing"  data-easeout="swing" data-speedin="500" data-speedout="200" data-die="stay" >
+                                  <div class="rtext stub caption-style"> <h2 class='custom-font' >Security Weekly - A Whole New Look</h2>   <p>We're proud to bring you a new look this year, with Security Weekly. In additional to some name changing and a new web site, we will bring you the best security podcasts, TV Shows and webcasts!</p> <a class='read-more ' href='http://securityweekly.com/podcasts'> More </a></div>
+                                </div></div></div></div></div><div id='home-slider-caption' class='right_stage_caption'></div>   
+       
+       
+    </div> <!--  End of Parent Slider Container -->
+  </div> <!--  End of Parent Slider Container -->
+</div> <!-- End of Parent Slider Container -->
+
+
+</div> <!-- End of Starter  -->
+
+<div class="bottom-home-bar"></div>
+</div>
+
+
+<div class="home-template-area full-width" id="main-content">
+			 <div class="separator thunder_listener" data-filter="tbr">   </div>
+		  		 
+          <div  class="clearfix latest-scrollable-posts skeleton isScrollable thunder_listener">
+         
+                   <div class="section-title clearfix">
+          	 <h2 class=" custom-font">Read The Blog</h2>
+          </div>           
+          
+       <div class="clearfix">
+        <div class="full-width clearfix layout_element">                    <a href="" class="scrollable-prev"></a> 
+         <a href="" class="scrollable-next"></a>
+                   
+                   
+         <div class="scrollable">
+           <div class="items">
+			<ul class='items-block post-nonproduct post-post '  >              <li class="post-item nomarginleft">
+                				
+                	
+              
+                  <div class="image">
+                  <a href='http://securityweekly.com/2015/09/03/hack-naked-tv-september-1-2015/' class=' imageholder ' title=''>     <img  class='' src='http://securityweekly.com/wp-content/uploads/2015/09/ashleymadisonceo-245x167.png'    /> </a> 
+               
+                  </div><!--image-->
+                            
+               
+                  <div class="desc">
+                  
+                 
+              	  
+                  
+                    <h3 class="custom-font"><a href="http://securityweekly.com/2015/09/03/hack-naked-tv-september-1-2015/">Hack Naked TV &#8211; September 1, 2015</a></h3>
+                  
+				  This week Aaron talks about the Ubiquity email scam, the resignation of the Ashley Madison CEO, the </div>
+                  
+              </li>
+			              <li class="post-item ">
+                				
+                	
+              
+                  <div class="image">
+                  <a href='http://securityweekly.com/2015/09/01/security-weekly-432-stories-of-the-week-hacked-smart-fridge-more-ashley-madison/' class=' imageholder ' title=''>     <img  class='' src='http://securityweekly.com/wp-content/uploads/2015/09/smart-refrigerator-245x167.jpeg'    /> </a> 
+               
+                  </div><!--image-->
+                            
+               
+                  <div class="desc">
+                  
+                 
+              	  
+                  
+                    <h3 class="custom-font"><a href="http://securityweekly.com/2015/09/01/security-weekly-432-stories-of-the-week-hacked-smart-fridge-more-ashley-madison/">Security Weekly 432 &#8211; Stories of t</a></h3>
+                  
+				  Jack gets into full rant mode in this segment, where we cover some more news about the epic Ashley M</div>
+                  
+              </li>
+			              <li class="post-item ">
+                				
+                	
+              
+                  <div class="image">
+                  <a href='http://securityweekly.com/2015/08/31/security-weekly-432-jack-daniels-uplifting-rants/' class=' imageholder ' title=''>     <img  class='' src='http://securityweekly.com/wp-content/uploads/2015/08/Jack-Daniel-1060x628-245x167.png'    /> </a> 
+               
+                  </div><!--image-->
+                            
+               
+                  <div class="desc">
+                  
+                 
+              	  
+                  
+                    <h3 class="custom-font"><a href="http://securityweekly.com/2015/08/31/security-weekly-432-jack-daniels-uplifting-rants/">Security Weekly 432 &#8211; Jack Daniel&</a></h3>
+                  
+				  No seriously, Jack was in rare form: Uplifting, sympathetic, offering help, and dare I say trying to</div>
+                  
+              </li>
+			              <li class="post-item ">
+                				
+                	
+              
+                  <div class="image">
+                  <a href='http://securityweekly.com/2015/08/29/hack-naked-tv-08-29-15/' class=' imageholder ' title=''>     <img  class='' src='http://securityweekly.com/wp-content/uploads/2014/10/hacknakedtv-245x167.png'    /> </a> 
+               
+                  </div><!--image-->
+                            
+               
+                  <div class="desc">
+                  
+                 
+              	  
+                  
+                    <h3 class="custom-font"><a href="http://securityweekly.com/2015/08/29/hack-naked-tv-08-29-15/">Hack Naked TV 08-29-15</a></h3>
+                  
+				  The Hack Naked episode for August 28th, 2015 is up! This week on Hack Naked TV, Beau talks about hi</div>
+                  
+              </li>
+			</ul><ul class='items-block post-nonproduct post-post '  >              <li class="post-item nomarginleft">
+                				
+                	
+              
+                  <div class="image">
+                  <a href='http://securityweekly.com/2015/08/27/episode-431-security-news-stories-ashley-madison-hack/' class=' imageholder ' title=''>     <img  class='' src='http://securityweekly.com/wp-content/uploads/2015/08/ashleymadison-245x167.jpg'    /> </a> 
+               
+                  </div><!--image-->
+                            
+               
+                  <div class="desc">
+                  
+                 
+              	  
+                  
+                    <h3 class="custom-font"><a href="http://securityweekly.com/2015/08/27/episode-431-security-news-stories-ashley-madison-hack/">Episode 431 Security News Stories: Ashle</a></h3>
+                  
+				  
+
+mp3
+
+This week in the news we discuss Googles new Wifi router and finding staff to work for Ub</div>
+                  
+              </li>
+			              <li class="post-item ">
+                				
+                	
+              
+                  <div class="image">
+                  <a href='http://securityweekly.com/2015/08/26/episode-431-interview-with-phil-young-and-chad-rikansrud/' class=' imageholder ' title=''>     <img  class='' src='http://securityweekly.com/wp-content/uploads/2015/08/bigendiansmalls-245x167.jpg'    /> </a> 
+               
+                  </div><!--image-->
+                            
+               
+                  <div class="desc">
+                  
+                 
+              	  
+                  
+                    <h3 class="custom-font"><a href="http://securityweekly.com/2015/08/26/episode-431-interview-with-phil-young-and-chad-rikansrud/">Episode 431: Interview with Phil Young a</a></h3>
+                  
+				  
+
+mp3
+
+This week, we interview Bigendian Smalls and the Soldier of Fortran on mainframe hacking.</div>
+                  
+              </li>
+			              <li class="post-item ">
+                				
+                	
+              
+                  <div class="image">
+                  <a href='http://securityweekly.com/2015/08/25/episode-430-security-news-stories-oracle-lenovo-and-stagefright/' class=' imageholder ' title=''>     <img  class='' src='http://securityweekly.com/wp-content/uploads/2015/08/Fotolia_88829782_XS-245x167.jpg'    /> </a> 
+               
+                  </div><!--image-->
+                            
+               
+                  <div class="desc">
+                  
+                 
+              	  
+                  
+                    <h3 class="custom-font"><a href="http://securityweekly.com/2015/08/25/episode-430-security-news-stories-oracle-lenovo-and-stagefright/">Episode 430 Security News Stories: Oracl</a></h3>
+                  
+				  
+
+Episode 430
+
+This week in stories we discuss the redacted blog post by Oracle CSO Mary Ann Dav</div>
+                  
+              </li>
+			              <li class="post-item ">
+                				
+                	
+              
+                  <div class="image">
+                  <a href='http://securityweekly.com/2015/08/24/episode-430-interview-with-daniel-miessler/' class=' imageholder ' title=''>     <img  class='' src='http://securityweekly.com/wp-content/uploads/2015/08/Daniel-Miessler-245x167.jpg'    /> </a> 
+               
+                  </div><!--image-->
+                            
+               
+                  <div class="desc">
+                  
+                 
+              	  
+                  
+                    <h3 class="custom-font"><a href="http://securityweekly.com/2015/08/24/episode-430-interview-with-daniel-miessler/">Episode 430: Interview with Daniel Miess</a></h3>
+                  
+				  
+
+mp3
+
+Daniel Miessler is Principal Security Architect with HP based out of San Francisco, Calif</div>
+                  
+              </li>
+			</ul></ul>            </div>
+            </div>  
+            
+           </div>   
+         
+		           
+          <div class="float-right clearfix thunder_image">
+			<div class="blurb-wrapper">
+				<div class="blurb-button">
+					<a class="custom-font thunder_button" href="/blog/">View All</a>
+				</div>
+			</div>
+          </div> 
+         </div></div>
+		  		 <div class="separator thunder_listener" data-filter="tbr">   </div>
+		   <div class="home-page-four-columns editor-cols thunder_listener" data-filter="bg bgi bgri bgp bbr" data-text-filter="cr" data-link-filter="cr" data-headings-filter="cr bbr"  ><div class="skeleton clearfix"><div class="column-inner-wrapper clearfix">			
+            	
+             <div class="section-title">
+          	 	<h2 class="custom-font">Explore Paul's Security Weekly</h2>                     </div>
+         	
+		 
+		                 
+               
+                
+				<div class="one_fourth layout_element clearfix">
+                
+                	    
+                     <div class="col-image"><a href='http://securityweekly.com/2015/08/24/episode-430-interview-with-daniel-miessler/' class=' imageholder ' title=''>     <img alt='<span>1</span> Watch the Show' class='' src='http://securityweekly.com/wp-content/uploads/2014/10/pdc_show_thmb2-235x125-235x125.jpg'    /> </a></div>              
+                    
+          
+                    <div class="description hasImage">
+                    
+					
+                       <div class="intro-fancy-title">
+                          	                                                      
+                         <div class="clearfix">
+						      <h2 class="custom-font"><span>1</span> Watch the Show</h2>    
+                          	  
+                          </div>
+                        </div>
+                        
+                        <div class="column-content">
+                            <p>Get started by watching our award winning show Paul&#8217;s Security Weekly:</p>
+<p><a href='/watch/' target='_BLANK'  style = ' background-color:#111111; border-radius:5px; -moz-border-radius:5px; color:#ffffff; border:1px solid #111111; '  class='titanbutton big'>  Watch  Paul&#8217;s Security Weekly  </a></p>
+                        </div>
+                    </div>
+                </div>
+				
+				                
+               
+                
+				<div class="one_fourth layout_element clearfix">
+                
+                	    
+                     <div class="col-image"><a href='http://securityweekly.com/2015/08/24/episode-430-interview-with-daniel-miessler/' class=' imageholder ' title=''>     <img alt='<span>2</span> Read the Notes' class='' src='http://securityweekly.com/wp-content/uploads/2014/10/show_notes_thmb-235x125-235x125.jpg'    /> </a></div>              
+                    
+          
+                    <div class="description hasImage">
+                    
+					
+                       <div class="intro-fancy-title">
+                          	                                                      
+                         <div class="clearfix">
+						      <h2 class="custom-font"><span>2</span> Read the Notes</h2>    
+                          	  
+                          </div>
+                        </div>
+                        
+                        <div class="column-content">
+                            <p>The best way to follow along with the podcast is by checking out show notes as you watch. </p>
+<p><a href='http://wiki.securityweekly.com/wiki/' target='_BLANK'  style = ' background-color:#111111; border-radius:5px; -moz-border-radius:5px; color:#ffffff; border:1px solid #111111; '  class='titanbutton big'>  Read Show Notes<br />
+ </a></p>
+                        </div>
+                    </div>
+                </div>
+				
+				                
+               
+                
+				<div class="one_fourth layout_element clearfix">
+                
+                	    
+                     <div class="col-image"><a href='http://securityweekly.com/2015/08/24/episode-430-interview-with-daniel-miessler/' class=' imageholder ' title=''>     <img alt='<span>3</span> Explore the Library' class='' src='http://securityweekly.com/wp-content/uploads/2014/10/tech_lib_thmb-235x125-235x125.jpg'    /> </a></div>              
+                    
+          
+                    <div class="description hasImage">
+                    
+					
+                       <div class="intro-fancy-title">
+                          	                                                      
+                         <div class="clearfix">
+						      <h2 class="custom-font"><span>3</span> Explore the Library</h2>    
+                          	  
+                          </div>
+                        </div>
+                        
+                        <div class="column-content">
+                            <p>Learn more about the technology and techniques you hear about in the show at the Tech Library</p>
+<p><a href='http://wiki.securityweekly.com/wiki/index.php/TechSegments' target='_BLANK'  style = ' background-color:#111111; border-radius:5px; -moz-border-radius:5px; color:#ffffff; border:1px solid #111111; '  class='titanbutton big'>  Visit Tech Library<br />
+ </a></p>
+                        </div>
+                    </div>
+                </div>
+				
+				                
+               
+                
+				<div class="one_fourth_last layout_element clearfix">
+                
+                	    
+                     <div class="col-image"><a href='http://securityweekly.com/2015/08/24/episode-430-interview-with-daniel-miessler/' class=' imageholder ' title=''>     <img alt='<span>4</span> Keep In Touch' class='' src='http://securityweekly.com/wp-content/uploads/2014/10/get_in_touch_thmb1-235x125-235x125.jpg'    /> </a></div>              
+                    
+          
+                    <div class="description hasImage">
+                    
+					
+                       <div class="intro-fancy-title">
+                          	                                                      
+                         <div class="clearfix">
+						      <h2 class="custom-font"><span>4</span> Keep In Touch</h2>    
+                          	  
+                          </div>
+                        </div>
+                        
+                        <div class="column-content">
+                            <div class="clearfix"><a style="float: right; margin-left: 5px; display: block;" class="social-medium" href="/insider/"><img src="http://securityweekly.com/wp-content/uploads/2013/05/icon_email-256-black.png" /></a>Stay connected to the community! Follow us and join the discussion.</div>
+<div id="social-icon-box"><a href="#" class='stooltip' rel="tooltip" title="Facebook"><a class="social-large" href="https://www.facebook.com/pages/Security-Weekly/56074056651"><img src="http://securityweekly.com/wp-content/uploads/2013/05/icon_facebook-256-black.png" alt="facebook"></a></a><a href="#" class='stooltip' rel="tooltip" title="Twitter"><a class="social-large-last" href="http://www.twitter.com/securityweekly"><img src="http://securityweekly.com/wp-content/uploads/2013/05/icon_twitter-256-black.png" alt="twitter"></a></a></p>
+<div class="clearfix"></div>
+<p><a class="social-medium" href="http://youtube.com/securityweeklytv"><img src="http://securityweekly.com/wp-content/uploads/2013/05/youtube-256-black.png" alt="youtube"></a><a class="social-medium" href="http://www.linkedin.com/profile/view?id=928145"><img src="http://securityweekly.com/wp-content/uploads/2013/05/linkedin-256-black.png" alt="linkedin"></a><a class="social-medium" href="https://plus.google.com/108998557249071696489"><img src="http://securityweekly.com/wp-content/uploads/2013/05/googleplus-256-black.png" alt="google+"></a><a class="social-medium-last" href="http://blip.tv/pauldotcom"><img src="http://securityweekly.com/wp-content/uploads/2013/05/blip-256-black.png" alt="blip.tv"></a></div>
+                        </div>
+                    </div>
+                </div>
+				
+				</div></div></div></div>
+
+
+
+
+<div id="footer"  class="thunder_listener" data-filter="bg bgi bgp bgr" data-link-filter="cr crh" data-list-filter="bbr cr" data-text-filter="cr" data-headings-filter="cr bbr">
+  <div class="inner-footer-wrapper">
+   <div  class=" clearfix skeleton ">
+       
+    <div class="mobile_footer_widget">
+      <div class="footer-cols  clearfix"><div class="footer-wrap clearfix"><h3 class="custom-font footer-heading">More Info</h3><div class="menu-footer-column-menu-container"><ul id="menu-footer-column-menu" class="menu"><li id="menu-item-1105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1105"><a href="http://securityweekly.com/about/">About</a></li>
+<li id="menu-item-1107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1107"><a href="http://securityweekly.com/contact/">Contact</a></li>
+<li id="menu-item-1111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1111"><a href="http://securityweekly.com/press/">Press</a></li>
+<li id="menu-item-1106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1106"><a href="http://securityweekly.com/careers/">Careers</a></li>
+<li id="menu-item-1110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1110"><a href="http://securityweekly.com/people/">People</a></li>
+<li id="menu-item-1113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1113"><a href="http://securityweekly.com/resource-archive/">Resource Archive</a></li>
+</ul></div></div></div>    </div>
+      
+     
+     <div class="footer-cols  layout_element one_third clearfix"><div class="footer-wrap clearfix"><h3 class="custom-font footer-heading">More Information</h3><div class="menu-footer-column-menu-container"><ul id="menu-footer-column-menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1105"><a href="http://securityweekly.com/about/">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1107"><a href="http://securityweekly.com/contact/">Contact</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1111"><a href="http://securityweekly.com/press/">Press</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1106"><a href="http://securityweekly.com/careers/">Careers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1110"><a href="http://securityweekly.com/people/">People</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1113"><a href="http://securityweekly.com/resource-archive/">Resource Archive</a></li>
+</ul></div></div></div><div class="footer-cols  layout_element one_third clearfix"><div class="footer-wrap clearfix"><div><h3 class="custom-font footer-heading"><span class='twitterwidget twitterwidget-title'>Latest Tweets</span></h3><ul><li><span class='entry-content'>How we roll at G Unit studios here in RI <a href="http://twitter.com/DefiantWhisky" class="twitter-user" target="_blank">@DefiantWhisky</a> <a href="http://t.co/uO6d5RzRRU" target="_blank">http://t.co/uO6d5RzRRU</a></span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/securityweekly/statuses/639556046898491392" target="_blank">about 11 hours ago</a></span></span></li><li><span class='entry-content'>This week Aaron talks about the Ubiquity email scam, the resignation of the Ashley Madison CEO, and MORE! <a href="http://t.co/OG1UpueLa7" target="_blank">http://t.co/OG1UpueLa7</a></span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/securityweekly/statuses/639407560773074945" target="_blank">about 21 hours ago</a></span></span></li><li><span class='entry-content'>Hack Naked TV – September 1, 2015 <a href="http://t.co/E6UCEVIEVP" target="_blank">http://t.co/E6UCEVIEVP</a></span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/securityweekly/statuses/639317097852436480" target="_blank">02:00:48 AM September 03, 2015</a></span></span></li></ul><div class="follow-button"><a href="http://twitter.com/securityweekly" class="twitter-follow-button" title="Follow @securityweekly" data-lang="en" target="_blank">@securityweekly</a></div></div></div></div><div class="footer-cols  layout_element one_third_last clearfix"><div class="footer-wrap clearfix"><h3 class="custom-font footer-heading">Get The Inside Scoop</h3>			<div class="textwidget"><p>The Security Weekly Insider newsletter will provide you with information and updates on Security Weekly webcasts, podcasts, training and more!</p>
+<p><!-- MailChimp for WordPress v2.3.8 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
+<div id="mc4wp-form-1" class="form mc4wp-form">
+<form method="post">
+<p>
+    <input type="email" name="EMAIL" placeholder="Your email address" required="required">
+</p>
+<div style="position: absolute; left:-5000px;"><input type="text" name="_mc4wp_required_but_not_really" value="" tabindex="-1" /></div>
+<p><input type="hidden" name="_mc4wp_timestamp" value="1441360034" /><input type="hidden" name="_mc4wp_form_id" value="0" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><input type="hidden" name="_mc4wp_form_submit" value="1" /><input type="hidden" name="_mc4wp_form_nonce" value="b3aefc1098" /></form>
+</div>
+<p><!-- / MailChimp for WordPress Plugin --></p>
+</div>
+		</div></div>     
+   
+          </div>
+   </div>
+   
+   <div id="footer-menu"  class="thunder_listener" data-filter="bg" data-text-filter="cr" data-link-filter="cr crh" data-list-filter="lbr">
+    <div  class=" clearfix skeleton  " >
+   
+             <p class="footer-text">  	  </p> 
+             
+             <ul id="menu-footer-menu" class="menu"><li id="menu-item-1098" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1098"><a href="http://securityweekly.com/sponsor-info/">Sponsor Info</a></li>
+<li id="menu-item-1097" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1097"><a href="http://securityweekly.com/events/">Events</a></li>
+<li id="menu-item-3056" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3056"><a href="/insider/">Insider Mailing List</a></li>
+</ul>      </div>  
+   </div>
+  
+ 
+   
+</div>
+
+
+
+
+
+
+
+</div> </div><!-- End of SUPER WRAPPER -->
+<script type="text/javascript">
+</script>
+	<div style="display:none">
+	</div>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201536'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2015Sepaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://securityweekly.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.3'></script>
+<script type='text/javascript' src='http://platform.twitter.com/widgets.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://securityweekly.com/wp-content/themes/global/sprites/js/jquery.transit.js?ver=4.3'></script>
+<script type='text/javascript' src='http://securityweekly.com/wp-content/themes/global/sprites/js/jquery.isotope.min.js?ver=4.3'></script>
+<script type='text/javascript' src='http://securityweekly.com/wp-content/themes/global/sprites/js/common-utils.js?ver=4.3'></script>
+<script type='text/javascript' src='http://securityweekly.com/wp-content/themes/global/sprites/js/jquery.redils.js?ver=4.3'></script>
+<script type='text/javascript' src='http://securityweekly.com/wp-content/themes/global/sprites/js/jquery.redils.presets.js?ver=4.3'></script>
+<script type='text/javascript' src='http://securityweekly.com/wp-content/themes/global/sprites/js/jquery.redils.fade.js?ver=4.3'></script>
+<script type='text/javascript' src='http://securityweekly.com/wp-content/themes/global/sprites/js/jquery.redils.jquery.js?ver=4.3'></script>
+<script type='text/javascript' src='http://securityweekly.com/wp-content/themes/global/sprites/js/jquery.prettyPhoto.js?ver=4.3'></script>
+<script type='text/javascript' src='http://securityweekly.com/wp-content/themes/global/sprites/js/custom.js?ver=4.3'></script>
+
+	<!-- start miniAudioPlayer initializer -->
+	<script type="text/javascript">
+
+	var miniAudioPlayer_replaceDefault = false;
+	var miniAudioPlayer_excluded = "map_excluded";
+	var miniAudioPlayer_replaceDefault_show_title = false;
+
+	var miniAudioPlayer_defaults = {
+				inLine:true,
+                width:"200",
+				skin:"black",
+				animate:false,
+				volume:.6,
+				autoplay:false,
+				showVolumeLevel:true,
+				allowMute: false,
+				showTime:true,
+				id3:true,
+				showRew:true,
+				addShadow: false,
+				downloadable:true,
+				downloadPage:"http://securityweekly.com/wp-content/plugins/wp-miniaudioplayer/map_download.php",
+				swfPath:"http://securityweekly.com/wp-content/plugins/wp-miniaudioplayer/js/",
+				onReady: function(player, $controlsBox){
+				   if(player.opt.downloadable && player.opt.downloadablesecurity && !false){
+				        jQuery(".map_download", $controlsBox).remove();
+				   }
+				}
+		};
+
+    function initializeMiniAudioPlayer(){
+    	  jQuery(".mejs-container a").addClass(miniAudioPlayer_excluded);
+         jQuery("a[href*='.mp3'] ,a[href*='.m4a']").not(".map_excluded").not(".wp-playlist-caption").mb_miniPlayer(miniAudioPlayer_defaults);
+    }
+
+	jQuery(function(){
+
+        if(false)
+          replaceDefault();
+
+          initializeMiniAudioPlayer();
+          jQuery(document).ajaxSuccess(function(event, xhr, settings) {
+           	initializeMiniAudioPlayer();
+          });
+	});
+	</script>
+	<!-- end miniAudioPlayer initializer -->
+
+	<script type="text/javascript">
+			(function() {
+				function addSubmittedClassToFormContainer(e) {
+					var form = e.target.form.parentNode;
+					var className = 'mc4wp-form-submitted';
+					(form.classList) ? form.classList.add(className) : form.className += ' ' + className;
+				}
+
+				var forms = document.querySelectorAll('.mc4wp-form');
+				for (var i = 0; i < forms.length; i++) {
+					(function(f) {
+
+						/* add class on submit */
+						var b = f.querySelector('[type="submit"]');
+						if(b.length > 0 ) {
+							if(b.addEventListener) {
+								b.addEventListener('click', addSubmittedClassToFormContainer);
+							} else {
+								b.attachEvent('click', addSubmittedClassToFormContainer);
+							}
+						}
+
+					})(forms[i]);
+				}
+			})();
+
+					</script><script type='text/javascript' src='http://stats.wp.com/e-201536.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:3.6.1',blog:'98240019',post:'0',tz:'-4',srv:'securityweekly.com'} ]);
+	_stq.push([ 'clickTrackerInit', '98240019', '0' ]);
+</script>
+</body>
+</html>
+      
